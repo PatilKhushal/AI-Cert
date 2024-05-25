@@ -6,11 +6,15 @@ Clone the project
 ```bash
   git clone https://github.com/PatilKhushal/AI-Cert.git
 ```
+
 Install MongoDB according to Device from following site
 ```bash
   https://www.mongodb.com/docs/manual/administration/install-community/
 ```
-
+Start mongo Dameon Thread
+```bash
+  mongod
+```
 Open the root folder
 
 Go to the backend directory
