@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leftToRight
+{
+    animation: left-right 200ms ease-out;
+}
+
+.topToBottom
+{
+    animation: top-bottom 1000ms linear;
+}
+
+@keyframes left-right {
+    0%
+    {
+        transform: translateX(-100%);
+    }
+    100%
+    {
+        transform: translateY(0);
+    }
+}
+
+@keyframes top-bottom {
+    100%
+    {
+        transform: scale(0);
+    }
+}

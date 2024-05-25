@@ -1,0 +1,17 @@
+Create RESTful API endpoints to manage tasks.
+
+/tasks          =>     GET        =>   Retrieve all tasks.
+/tasks/:id      =>     GET        =>   Retrieve a single task by ID.
+/tasks          =>     POST       =>   Create a new task.
+/tasks/:id      =>     PUT        =>   Update an existing task by ID.
+/tasks/:id      =>     DELETE     =>   Delete a task by ID.
+
+
+Database Schemas
+
+Tasks :
+1.  Unique ID       =>      objectID
+2.  Title           =>      String
+3.  Description     =>      String
+4.  Status          =>      Enumeration[pending, in-progress, completed] 
+5.  Due-Date        =>      Date
